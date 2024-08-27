@@ -22,7 +22,7 @@ let raqueteAltura = 90;
 let meusPontos = 0;
 let pontosDoOponente = 0;
 
-
+https://ivasitinha.github.io/ivasita/
 //sons do jogo
 let raquetada;
 let ponto;
@@ -136,7 +136,7 @@ function marcaPonto() {
 
 
 function preload(){
-  trilha = loadSound("trilha.mp3");
-  ponto = loadSound("ponto.mp3");
-  raquetada = loadSound("raquetada.mp3");
+  trilha = loadSound("sounds/trilha.mp3");
+  ponto = loadSound("sounds/ponto.mp3");
+  raquetada = loadSound("sounds/raquetada.mp3");
 }
